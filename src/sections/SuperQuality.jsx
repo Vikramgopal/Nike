@@ -21,7 +21,7 @@ const SuperQuality = () => {
           Our dedication to details and excellence ensures your satisfaction.
         </p>
         <div className="mt-11">
-          <button className="rounded-full px-7 py-4  border font-montserrat text-lg leading-none bg-coral-red text-white border-coral-red hover:shadow-lg shadow-coral-red hover:bg-red-500 transition-all duration-300 ">
+          <button className="rounded-full px-7 py-4  border font-montserrat text-lg leading-none bg-black text-white border-black hover:shadow-lg shadow-slate-gray hover:bg-slate-gray hover:border-slate-gray transition-all duration-300 ">
             View details
           </button>
         </div>

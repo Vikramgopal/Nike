@@ -52,27 +52,27 @@ export const statistics = [
 export const products = [
   {
     imgURL: shoe4,
-    name: "Nike Air Jordan-01",
-    price: "$200.20",
-    href: "#",
+    name: "Air Jordan 1 Low Quai 54",
+    price: "MRP : ₹ 12 795.00",
+    href: "https://www.nike.com/in/t/air-jordan-1-low-quai-54-shoes-FmKDX1/HQ0764-001",
   },
   {
     imgURL: shoe5,
-    name: "Nike Air Jordan-10",
-    price: "$210.20",
-    href: "#",
+    name: "Air Jordan 1 Zoom CMFT 2",
+    price: "MRP : ₹ 13 295.00",
+    href: "https://www.nike.com/in/t/air-jordan-1-zoom-cmft-2-shoes-nX8Qqx/DV1307-406",
   },
   {
     imgURL: shoe6,
-    name: "Nike Air Jordan-100",
-    price: "$220.20",
-    href: "#",
+    name: "Air Jordan 1 Mid SE",
+    price: "MRP : ₹ 12 295.00",
+    href: "https://www.nike.com/in/t/air-jordan-1-mid-se-shoes-7Z9gTq/FJ3448-001",
   },
   {
     imgURL: shoe7,
-    name: "Nike Air Jordan-001",
-    price: "$230.20",
-    href: "#",
+    name: "Air Jordan 1 Low SE Craft",
+    price: "MRP : ₹ 8 295.00",
+    href: "https://www.nike.com/in/t/air-jordan-1-low-se-craft-older-shoes-ZcCzsX/FQ7757-001",
   },
 ];
 
@@ -147,8 +147,16 @@ export const socialMedia = [
   {
     src: facebook,
     alt: "facebook logo",
-    href: "/",
+    href: "https://www.facebook.com/nike",
   },
-  { src: twitter, alt: "twitter logo", href: "/" },
-  { src: instagram, alt: "instagram logo", href: "/" },
+  {
+    src: twitter,
+    alt: "twitter logo",
+    href: "https://twitter.com/Nike?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+  },
+  {
+    src: instagram,
+    alt: "instagram logo",
+    href: "https://www.instagram.com/nike",
+  },
 ];

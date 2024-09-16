@@ -26,15 +26,19 @@ const SpecialOffer = () => {
           is nothing short of exceptional{" "}
         </p>
         <div className="mt-11 flex gap-4 flex-wrap">
-          <button className="rounded-full px-7 py-4 border font-montserrat text-lg leading-none bg-coral-red text-white border-coral-red hover:shadow-lg shadow-coral-red hover:bg-red-500 transition-all duration-300 ">
-            Shop now{" "}
-            <span className="bg-white rounded-full text-coral-red w-5 h-5 px-1 ml-5">
-              &rarr;
-            </span>
-          </button>
-          <button className="rounded-full px-7 py-4  border font-montserrat text-lg leading-none bg-white text-slate-gray border-slate-gray hover:shadow-lg shadow-coral-red hover:bg-red-500 hover:text-white hover:border-red-500 transition-all duration-300 ">
-            View details
-          </button>
+          <a href="https://www.nike.com/in/">
+            <button className="rounded-full px-7 py-4 border font-montserrat text-lg leading-none bg-black text-white border-black hover:shadow-lg shadow-slate-gray hover:bg-slate-gray hover:border-slate-gray transition-all duration-300 ">
+              Shop now{" "}
+              <span className="bg-white  rounded-full text-black hover:text-slate-gray w-5 h-5 px-1 ml-5">
+                &rarr;
+              </span>
+            </button>
+          </a>
+          <a href="#">
+            <button className="rounded-full px-7 py-4  border font-montserrat text-lg leading-none bg-white text-slate-gray border-slate-gray hover:shadow-lg shadow-coral-red hover:bg-black hover:text-white hover:border-black transition-all duration-300 ">
+              View details
+            </button>
+          </a>
         </div>
       </div>
     </section>

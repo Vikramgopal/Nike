@@ -31,9 +31,9 @@ const Hero = () => {
         </p>
         {/* <Button label="Shop now" /> */}
         <a href="https://www.nike.com/in/w/new-shoes-3n82yzy7ok">
-          <button className="rounded-full px-7 py-4 border font-montserrat text-lg leading-none bg-coral-red text-white border-coral-red hover:shadow-lg shadow-coral-red hover:bg-red-500 transition-all duration-300 ">
+          <button className="rounded-full px-7 py-4 border font-montserrat text-lg leading-none bg-black text-white border-black hover:shadow-lg shadow-slate-gray hover:bg-slate-gray hover:border-slate-gray transition-all duration-300 ">
             Shop now{" "}
-            <span className="bg-white rounded-full text-coral-red w-5 h-5 px-1 ml-5">
+            <span className="bg-white  rounded-full text-black hover:text-slate-gray w-5 h-5 px-1 ml-5">
               &rarr;
             </span>
           </button>
