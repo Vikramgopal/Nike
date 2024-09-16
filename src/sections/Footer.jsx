@@ -1,10 +1,17 @@
 import { copyrightSign } from "../assets/icons";
 import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constant";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Footer = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
-    <>
+    <div data-aos="zoom-in-up">
       <footer className="max-container">
         <div className="flex flex-wrap justify-between items-start gap-20 max-lg:flex-col">
           <div className="flex flex-col items-start">
@@ -71,7 +78,7 @@ const Footer = () => {
         {" "}
         Come & Shop with VIKI 👟
       </div>
-    </>
+    </div>
   );
 };
 

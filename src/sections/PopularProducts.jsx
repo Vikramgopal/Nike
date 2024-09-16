@@ -1,9 +1,19 @@
 import { products } from "../constant";
 import PopularProductCard from "../components/PopularProductCard";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const PopularProduct = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
-    <section id="products" className="max-sm:mt-12  max-container">
+    <section
+      data-aos="fade-up"
+      id="products"
+      className="max-sm:mt-12  max-container"
+    >
       <div className="flex flex-col justify-start gap-5">
         <h1 className="text-4xl font-palanquin font-bold">
           Our <span className="text-coral-red">Popular</span> products

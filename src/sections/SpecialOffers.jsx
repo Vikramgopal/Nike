@@ -1,8 +1,17 @@
 import { offer } from "../assets/images";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const SpecialOffer = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
-    <section className="flex justify-wrap  items-center max-xl:flex-col-reverse max-container gap-10">
+    <section
+      data-aos="flip-right"
+      className="flex justify-wrap  items-center max-xl:flex-col-reverse max-container gap-10"
+    >
       <div className="flex-1">
         <img
           src={offer}

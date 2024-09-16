@@ -1,8 +1,16 @@
 import { shoe8 } from "../assets/images";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const SuperQuality = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <section
+      data-aos="flip-left"
       id="about-us"
       className="flex justify-between items-center max-container max-lg:flex-col w-full gap-10"
     >

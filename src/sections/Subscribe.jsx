@@ -1,6 +1,12 @@
 import { useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Subscribe = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   const [description, setDesciption] = useState("");
 
   function handleSubmit(e) {
@@ -12,6 +18,7 @@ const Subscribe = () => {
 
   return (
     <section
+      data-aos="zoom-in-up"
       id="contact-us"
       className="flex justify-between items-center gap-10 max-container max-lg:flex-col"
     >

@@ -1,9 +1,15 @@
 import { reviews } from "../constant";
 import ReviewCard from "../components/ReviewCard";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const CustomerReview = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
-    <section className="max-container">
+    <section data-aos="zoom-in-up" className="max-container">
       <h3 className="text-center text-4xl font-palanquin font-bold">
         What Our
         <span className="text-coral-red"> Customers </span>

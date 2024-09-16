@@ -4,12 +4,19 @@ import { useState } from "react";
 import { shoes, statistics } from "../constant";
 import { bigShoe1 } from "../assets/images";
 import ShoeCard from "../components/ShoeCard";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Hero = () => {
   const [bigShoe, setBigshoe] = useState(bigShoe1);
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
 
   return (
     <section
+      data-aos="fade-up"
       id="home"
       className="w-full flex xl:flex-row justify-center flex-col
     min-h-screen gap-10 max-container"
