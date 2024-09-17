@@ -11,7 +11,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <div data-aos="zoom-in-up">
+    <div data-aos="zoom-in-down">
       <footer className="max-container">
         <div className="flex flex-wrap justify-between items-start gap-20 max-lg:flex-col">
           <div className="flex flex-col items-start">

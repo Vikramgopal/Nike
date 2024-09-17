@@ -18,7 +18,7 @@ const Subscribe = () => {
 
   return (
     <section
-      data-aos="zoom-in-up"
+      data-aos="fade-up"
       id="contact-us"
       className="flex justify-between items-center gap-10 max-container max-lg:flex-col"
     >

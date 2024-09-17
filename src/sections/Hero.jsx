@@ -61,7 +61,7 @@ const Hero = () => {
       </div>
       <div className="relative flex justify-center items-center flex-1 bg-primary max-xl:py-40 xl:min-h-screen bg-hero bg-cover bgce">
         <img
-          data-aos="fade-left"
+          data-aos="zoom-in"
           src={bigShoe}
           alt="shoecollection"
           width={610}

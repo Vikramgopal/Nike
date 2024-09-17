@@ -43,7 +43,10 @@ const Nav = () => {
           <img src={hamburger} alt="Hamburger" width={25} height={25} />
         </div>
         {click && (
-          <div className="bg-white w-full block lg:hidden  pt-10 ">
+          <div
+            data-aos="fade-right"
+            className="bg-white w-full block lg:hidden  pt-10 "
+          >
             <ul className="flex-1 flex-col  space-y-4 ">
               {navLinks.map((items) => (
                 <li key={items.label}>
