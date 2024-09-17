@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <section
-      data-aos="fade-up"
+      // data-aos="fade-up"
       id="home"
       className="w-full flex xl:flex-row justify-center flex-col
     min-h-screen gap-10 max-container"
@@ -61,6 +61,7 @@ const Hero = () => {
       </div>
       <div className="relative flex justify-center items-center flex-1 bg-primary max-xl:py-40 xl:min-h-screen bg-hero bg-cover bgce">
         <img
+          data-aos="fade-left"
           src={bigShoe}
           alt="shoecollection"
           width={610}

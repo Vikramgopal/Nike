@@ -10,16 +10,21 @@ const SuperQuality = () => {
 
   return (
     <section
-      data-aos="flip-left"
+      // data-aos="flip-left"
       id="about-us"
       className="flex justify-between items-center max-container max-lg:flex-col w-full gap-10"
     >
-      <div className="flex flex-1 flex-col">
-        <h2 className=" text-4xl font-palanquin capitalize lg:max-w-lg font-bold">
-          We Provide You <span className=" text-coral-red ">Super</span>
-          <br />
-          <span className=" text-coral-red ">Quality</span> Shoes
-        </h2>
+      <div data-aos="fade-right" className="flex flex-1 flex-col">
+        <div>
+          <h2
+            // data-aos="fade-right"
+            className=" text-4xl font-palanquin capitalize lg:max-w-lg font-bold"
+          >
+            We Provide You <span className=" text-coral-red ">Super</span>
+            <br />
+            <span className=" text-coral-red ">Quality</span> Shoes
+          </h2>
+        </div>
         <p className="mt-4 info-text lg:max-w-lg">
           Ensuring premium comfort and style, Our metriculously crafted footwear
           is designed to elevate your experience, providing you with unmatched
@@ -34,7 +39,10 @@ const SuperQuality = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-1 justify-center items-center ">
+      <div
+        data-aos="flip-left"
+        className="flex flex-1 justify-center items-center "
+      >
         <img
           src={shoe8}
           alt="shoe8"
